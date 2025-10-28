@@ -1,0 +1,73 @@
+/*This file should have 10 CSS rulesets */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14pt;
+}
+  
+body {
+    font-size: 14pt;
+    background: #feedff;
+    font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+  
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+h1 {
+    color: #222;
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+
+h2 {
+    color: #222;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+li {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+img {
+    border-style: solid;
+    border: 2px solid #b144e3;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color:#222;
+}
+
+a:visited {
+    color: #b144e3;
+}
+
+a:hover {
+    color: #e060fc;
+}
+
+#research {
+    border-style: solid;
+    border: 3px solid #b144e3;
+    border-radius: 5px;
+}

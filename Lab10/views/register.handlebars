@@ -1,0 +1,41 @@
+
+<h1>Create an Account</h1>
+<main>
+    <form method="POST" action="/register" name="signup-form" id="signup-form">
+        <label for="firstName">First Name: </label>
+        <input name="firstName" id="firstName" type="text"/>
+
+        <label for="lastName">Last Name: </label>
+        <input name="lastName" id="lastName" type="text"/>
+
+        <label for="userId">User Id: </label>
+        <input name="userId" id="userId" type="text"/>
+
+        <label for="password">Password: </label>
+        <input name="password" id="password" type="password"/>
+
+        <label for="confirmPassword">Confirm Password: </label>
+        <input name="confirmPassword" id="confirmPassword" type="password"/>
+
+        <label for="favoriteQuote">Favorite Quote: </label>
+        <input name="favoriteQuote" id="favoriteQuote" type="text"/>
+
+        <label for="backgroundColor">Background Color: </label>
+        <input name="backgroundColor" id="backgroundColor" type="color"/>
+
+        <label for="fontColor">Font Color: </label>
+        <input name="fontColor" id="fontColor" type="color"/>
+
+        <label for="role">Pick Role</label>
+        <select name="role" id="role">
+            <option value="superuser">Super User</option>
+            <option value="user">User</option>
+        </select>
+        <button name="submitButton" id="submitButton" type="submit">Submit</button>
+    </form>
+    <a href="/login">Already have an account? Click here to sign-in</a>
+    <a href="/">Home Page</a>
+    {{#if message}}
+        <p class="error" id="error">{{message}}</p>
+    {{/if}}
+</main>

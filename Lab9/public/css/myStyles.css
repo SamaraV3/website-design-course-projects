@@ -1,0 +1,56 @@
+/*
+You will style your page using at least 10 CSS rule-sets for general CSS styling. You will place the CSS in this file.
+
+You must style the is-odd class to make text have a color of #0000FF and is-even class to make text have a color of #FF0000. Both is-odd and is-even should also be bold (these can count as 2 of your 10 rule-sets) 
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14pt;
+}
+  
+body {
+    font-size: 14pt;
+    font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+  
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+#error {
+    font-size: 1rem;
+    line-height: 2;
+    border-style: solid;
+    border: 5px solid #b144e3;
+    border-radius: 5px;
+    text-align: center;
+}
+
+li {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.is_odd {
+    color: #0000FF;
+    font-weight: bold;
+}
+
+.is_even {
+    color: #FF0000;
+    font-weight: bold;
+}

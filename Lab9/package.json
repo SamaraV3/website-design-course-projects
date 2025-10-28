@@ -1,0 +1,19 @@
+{
+  "name": "lab9",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Samara Vassell 20026451",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "path": "^0.12.7",
+    "url": "^0.11.4"
+  }
+}

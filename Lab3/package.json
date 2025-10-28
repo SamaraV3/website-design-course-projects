@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab-3",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Samara Vassell 20026451",
+  "license": "ISC",
+  "description": "My lab 3 module",
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
